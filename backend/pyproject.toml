@@ -5,16 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-   "anthropic>=0.64.0",
    "email-validator>=2.3.0",
    "fastapi>=0.116.1",
    "firebase-admin>=7.1.0",
    "pydantic-settings>=2.11.0",
    "pymongo>=4.14.1",
    "python-dotenv>=1.1.1",
-   "redis>=6.4.0",
    "requests>=2.32.5",
-   "tavily-python>=0.7.11",
    "uvicorn>=0.35.0",
    "watchfiles>=1.1.0",
    "websockets>=15.0.1",
