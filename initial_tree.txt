@@ -1,0 +1,95 @@
+.
+├── backend
+│   ├── api
+│   │   ├── auth
+│   │   │   ├── __init__.py
+│   │   │   ├── route.py
+│   │   │   ├── schema.py
+│   │   │   └── service.py
+│   │   └── __init__.py
+│   ├── app.py
+│   ├── app_types.py
+│   ├── Dockerfile
+│   ├── pyproject.toml
+│   ├── README.md
+│   ├── settings.py
+│   ├── utils
+│   │   ├── firebase
+│   │   │   ├── firebase_manager.py
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── logger.py
+│   │   ├── middleware
+│   │   │   ├── auth_middleware.py
+│   │   │   └── __init__.py
+│   │   └── mongo
+│   │       ├── __init__.py
+│   │       └── mongo_manager.py
+│   └── uv.lock
+├── frontend
+│   ├── eslint.config.mjs
+│   ├── next.config.ts
+│   ├── next-env.d.ts
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.mjs
+│   ├── public
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── next.svg
+│   │   ├── vercel.svg
+│   │   └── window.svg
+│   ├── README.md
+│   ├── src
+│   │   ├── app
+│   │   │   ├── api
+│   │   │   │   └── auth
+│   │   │   │       ├── logout
+│   │   │   │       │   └── route.ts
+│   │   │   │       ├── set-cookie
+│   │   │   │       │   └── route.ts
+│   │   │   │       └── whoami
+│   │   │   │           └── route.ts
+│   │   │   ├── dashboard
+│   │   │   │   ├── layout.tsx
+│   │   │   │   ├── page.tsx
+│   │   │   │   ├── profile
+│   │   │   │   │   └── page.tsx
+│   │   │   │   └── settings
+│   │   │   │       └── page.tsx
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── login
+│   │   │   │   └── page.tsx
+│   │   │   ├── page.tsx
+│   │   │   └── signup
+│   │   │       └── page.tsx
+│   │   ├── components
+│   │   │   ├── LoginForm.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   ├── SignupForm.tsx
+│   │   │   └── ui
+│   │   │       ├── Button.tsx
+│   │   │       ├── Card.tsx
+│   │   │       └── Input.tsx
+│   │   ├── context
+│   │   │   └── AuthContext.tsx
+│   │   ├── lib
+│   │   │   ├── actions
+│   │   │   ├── apiClient.ts
+│   │   │   ├── authService.ts
+│   │   │   ├── config.ts
+│   │   │   └── firebase.ts
+│   │   ├── middleware.ts
+│   │   └── types
+│   │       ├── api.ts
+│   │       ├── auth.ts
+│   │       ├── forms.ts
+│   │       └── schemas.ts
+│   └── tsconfig.json
+├── initial_tree.txt
+└── README.md
+
+28 directories, 65 files
