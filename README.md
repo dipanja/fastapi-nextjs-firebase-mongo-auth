@@ -617,4 +617,4 @@ Built with:
 
 ---
 
-**Ready to build?** Start with the [BACKEND_SETUP.md](./BACKEND_SETUP.md) or [FRONTEND_SETUP.md](./FRONTEND_SETUP.md) guide! 🚀
+**Ready to build?** Start with the [BACKEND_SETUP.md](./backend/BACKEND_SETUP.md) or [FRONTEND_SETUP.md](./frontend/FRONTEND_SETUP.md) guide! 🚀
