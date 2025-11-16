@@ -1227,8 +1227,8 @@ const HeavyComponent = dynamic(() => import('./HeavyComponent'), {
 4. ✅ Add your application-specific pages
 5. ✅ Deploy to Vercel/Netlify
 
-For backend setup, see [BACKEND_SETUP.md](./BACKEND_SETUP.md)
+For backend setup, see [BACKEND_SETUP](./backend/BACKEND_SETUP.md)
 
 ---
 
-**Questions?** Check the main [PROJECT_TEMPLATE_README.md](./PROJECT_TEMPLATE_README.md) or review the inline code comments!
+**Questions?** Check the main [PROJECT_README](./PROJECT_TEMPLATE_README.md) or review the inline code comments!

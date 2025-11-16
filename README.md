@@ -158,7 +158,7 @@ uv sync
 cp .env.example .env
 ```
 
-**Edit `backend/.env`** (see [BACKEND_SETUP.md](./BACKEND_SETUP.md) for details):
+**Edit `backend/.env`** (see [BACKEND_SETUP.md](./backend/BACKEND_SETUP.md) for details):
 
 ```bash
 # Backend/Frontend configuration
@@ -203,7 +203,7 @@ npm install
 cp .env.example .env.local
 ```
 
-**Edit `frontend/.env.local`** (see [FRONTEND_SETUP.md](./FRONTEND_SETUP.md) for details):
+**Edit `frontend/.env.local`** (see [FRONTEND_SETUP.md](./frontend/FRONTEND_SETUP.md) for details):
 
 ```bash
 # Backend configuration
@@ -469,8 +469,8 @@ export async function middleware(request: NextRequest) {
 
 For comprehensive setup and customization guides:
 
-- **[BACKEND_SETUP.md](./BACKEND_SETUP.md)** - Backend configuration, deployment, adding endpoints
-- **[FRONTEND_SETUP.md](./FRONTEND_SETUP.md)** - Frontend configuration, deployment, adding pages
+- **[BACKEND_SETUP.md](./backend/BACKEND_SETUP.md)** - Backend configuration, deployment, adding endpoints
+- **[FRONTEND_SETUP.md](./frontend/FRONTEND_SETUP.md)** - Frontend configuration, deployment, adding pages
 
 ---
 

@@ -997,8 +997,8 @@ uv run uvicorn app:app --reload --log-level debug
 4. ✅ Add database indexes
 5. ✅ Deploy to cloud platform
 
-For frontend setup, see [FRONTEND_SETUP.md](./FRONTEND_SETUP.md)
+For frontend setup, see [FRONTEND_SETUP](./frontend/FRONTEND_SETUP.md)
 
 ---
 
-**Questions?** Check the main [PROJECT_TEMPLATE_README.md](./PROJECT_TEMPLATE_README.md) or review the code comments!
+**Questions?** Check the main [PROJECT_README](./PROJECT_TEMPLATE_README.md) or review the code comments!
